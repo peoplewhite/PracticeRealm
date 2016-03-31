@@ -13,6 +13,7 @@
 		14CECB161CACE2F400FBFDBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14CECB151CACE2F400FBFDBA /* Assets.xcassets */; };
 		14CECB191CACE2F400FBFDBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14CECB171CACE2F400FBFDBA /* LaunchScreen.storyboard */; };
 		14CECB211CACE3C300FBFDBA /* AlphaCampModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CECB201CACE3C300FBFDBA /* AlphaCampModel.swift */; };
+		14CECB231CACE42C00FBFDBA /* StudentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CECB221CACE42C00FBFDBA /* StudentModel.swift */; };
 		338A3D3674531F0B4D2C26B9 /* Pods_PracticeRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56B0FD00C5E66AB2CAC1775A /* Pods_PracticeRealm.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,7 @@
 		14CECB181CACE2F400FBFDBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14CECB1A1CACE2F400FBFDBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14CECB201CACE3C300FBFDBA /* AlphaCampModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlphaCampModel.swift; sourceTree = "<group>"; };
+		14CECB221CACE42C00FBFDBA /* StudentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentModel.swift; sourceTree = "<group>"; };
 		5361A28CDB3F4A01EA9C72C6 /* Pods-PracticeRealm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracticeRealm.release.xcconfig"; path = "Pods/Target Support Files/Pods-PracticeRealm/Pods-PracticeRealm.release.xcconfig"; sourceTree = "<group>"; };
 		56B0FD00C5E66AB2CAC1775A /* Pods_PracticeRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PracticeRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -66,6 +68,7 @@
 				14CECB0E1CACE2F300FBFDBA /* AppDelegate.swift */,
 				14CECB101CACE2F300FBFDBA /* ViewController.swift */,
 				14CECB201CACE3C300FBFDBA /* AlphaCampModel.swift */,
+				14CECB221CACE42C00FBFDBA /* StudentModel.swift */,
 				14CECB121CACE2F300FBFDBA /* Main.storyboard */,
 				14CECB151CACE2F400FBFDBA /* Assets.xcassets */,
 				14CECB171CACE2F400FBFDBA /* LaunchScreen.storyboard */,
@@ -214,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14CECB111CACE2F300FBFDBA /* ViewController.swift in Sources */,
+				14CECB231CACE42C00FBFDBA /* StudentModel.swift in Sources */,
 				14CECB0F1CACE2F300FBFDBA /* AppDelegate.swift in Sources */,
 				14CECB211CACE3C300FBFDBA /* AlphaCampModel.swift in Sources */,
 			);
