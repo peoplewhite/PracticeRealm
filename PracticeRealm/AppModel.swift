@@ -12,6 +12,7 @@ import RealmSwift
 class AppModel: Object {
   
   dynamic var name: String = ""
+  dynamic var owner: StudentModel?
   
   convenience init(setName: String) {
     self.init()

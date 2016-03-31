@@ -12,14 +12,12 @@ import RealmSwift
 class StudentModel: Object {
   
   dynamic var name: String = ""
-  dynamic var app: String = ""
   
   
   convenience init(setName: String, setAppName: String) {
     self.init()
     
     name = setName
-    app  = setAppName
     
   }
   
