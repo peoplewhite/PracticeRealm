@@ -12,15 +12,15 @@ import RealmSwift
 class AlphaCampModel: Object {
   
   dynamic var campNumber: Int = 0
-  var students = [StudentModel]()
+  var students = List<StudentModel>()
   
   
-  convenience init(setCampNumber: Int, setStudentArray: [StudentModel]) {
+  convenience init(setCampNumber: Int, setStudentList: List<StudentModel>) {
     
     self.init()
     
     campNumber = setCampNumber
-    students = setStudentArray
+    students = setStudentList
     
   }
   
